@@ -25,6 +25,10 @@ subset(sales, Price >= 100, select=Name)
 subset(sales, Qty >= 2, select = -Price)
 subset(sales, Qty >= 3, select = c(Name, Price))
 
+subset(sales, Qty >= 2, select = c(Name, Price))
+
+
+
 
 
 
