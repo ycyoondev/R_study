@@ -50,3 +50,15 @@ x <- c(1,2,3,NA)
 mean(x)
 x<-1:100
 sum(x>50)
+
+
+x <- c(1:5)
+y <- seq(10,50,10)
+xy<-rbind(x,y)
+
+f <- function(x,a) return((x-a)^2)
+f(1:2,3)
+x <- c(1,2,3,NA)
+mean(x)
+x<-1:100
+sum(x>50)
